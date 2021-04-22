@@ -1,0 +1,34 @@
+/* 
+    type conversion (typecasting) vs Type coersion
+*/
+console.log(Number('9')+5)
+/* 
+    FALSY
+    Quando um valor é considerado false em contexto onde 
+    um booleano é obrigatório (condicionais e loops)
+    todos abaixo são falses
+    false 
+    0
+    -0
+    ""
+    null
+    undefined
+    NaN
+    */
+//console.log(undefined ? "verdadeiro" : "falso")
+
+/* 
+    THUTHY
+    Quando um valor é cosiderado true em contextos onde um
+    booleano é obrigatório (condicionais e loops)
+    true
+    {}
+    []
+    3.25
+    "0"
+    "false"
+    -1
+    Infinity 
+    -Infinity
+*/
+console.log([] ? 'verdadeiro' : "false")
